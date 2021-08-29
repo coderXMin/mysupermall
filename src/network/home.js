@@ -2,7 +2,7 @@ import {request} from "./request";
 // 首页请求数据接口
 export function getHomeMultidata(){
   return request({
-    url:"/home/multidata"
+    url:"
   })
 }
 export function getHomeGoods(type,page){
